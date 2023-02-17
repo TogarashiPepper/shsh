@@ -9,3 +9,7 @@ edition = "2021"
 logos = "0.12.1"
 rowan = "0.15.10"
 ibig = "0.3.6"
+
+[profile.release]
+strip = true
+opt-level = "z"
